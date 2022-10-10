@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#cc97da;
+    font-family: 'Noto Serif Gujarati', sans-serif;
+}
+section {
+    max-width: 950px;
+    min-width: 400px;
+    border: none;
+    height: auto;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Bad Script', sans-serif;
+    font-size: 50;
+}
+h4 {
+    margin-bottom: -200px;
+    padding: none;
+}
+.total {
+    margin-top: -25px;
+}
+hgroup, .titulo-lista, h4 {
+    text-align: center;
+    padding: 0;
+    margin: 1%;
+}
+.titulo-lista {
+    font-size: 25px;
+    font-weight: 700;
+}
+hgroup, h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+h1 {font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+h2 {font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    padding: 10;
+}
+.item {
+    font-weight: bold;
+}
+.sub-item {
+    font-style: italic;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+}
+.texto {
+    line-break: loose;
+    padding: 0px 60px 0px 60px;
+    text-align: center;
+}
+.texto:first-of-type{
+    margin-top: -5px;
+}
+.reportagens {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.link-para-reportagem {
+    font-family: 'Noto Serif Gujarati', sans-serif;
+    font-weight:500;
+    font-size: 13px;
+}
+.materia {
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+a {
+    color:rgb(128, 6, 71);
+    text-decoration: none;
+}
+img  {
+    width: 400px;
+}
+li {
+    list-style-type: none;
+  }
