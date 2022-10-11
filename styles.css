@@ -1,144 +1,57 @@
-.menu ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    border: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-}
-.menu ul li {
-    padding: 15px;
-}
-.menu {
-    background-color: rgb(34, 211, 143, 0.8);
-    width: 100%;
-}
 body {
-    background-color:#ffffff;
-    font-family: 'Noto Serif Gujarati', sans-serif;
-    border: none;
-    height: 600px;
-    width: 1350px;
-    min-width: 400px;
-    align-self: center;
-}
-section {
-    height: 600px;
-    width: 1000px;
-    max-width: 1000px;
-    min-width: 400px;
-    border: none;
-    height: auto;
-    padding: 20px;
-}
-h1 {
-    font-family: 'Bad Script', sans-serif;
-    color: rgb(34, 211, 143);
-    font-size:xx-large;
-}
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    color:rgb(60, 61, 60);
-    padding-top: 35px;
-}
-h4 {
-    margin-bottom: -200px;
-    padding: none;
-}
-.total {
-    margin-top: -25px;
-}
-hgroup, .titulo-lista, h4 {
-    text-align: center;
-    padding: 0;
-    margin: 1%;
-}
-.container-principal {
-    border: none;
+    width: 100%;
+    max-width: 100%;
+    height: 45vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 470px;
-    width: 1307px;
-    min-width: 400px;
-    max-width: 1307px;   
 }
-.titulo-lista {
-    font-size: 25px;
-    font-weight: 700;
+nav {
+    width: 100%;
+    background-color: rgb(66, 231, 182);
 }
-hgroup, h4 {
-    font-size: 20px;
-    font-weight: 600;
-}
-h1 {font-weight: 700;
-    font-size: 40px;
-    margin: 0;
-}
-h2 {font-weight: bold;
-    font-size: 20px;
-    margin: auto;
-    padding: 10;
-}
-.item {
-    font-weight: bold;
-}
-.sub-item {
-    font-style: italic;
-    padding-top: 0.5%;
-    padding-bottom: 2%;
-}
-.texto {
-    line-break: loose;
-    padding: 0px 60px 0px 60px;
-    text-align: center;
-}
-
-.reportagens {
+.menu-items {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
-.link-para-reportagem {
-    font-family: 'Noto Serif Gujarati', sans-serif;
-    font-weight:500;
-    font-size: 13px;
+.menu-items li {
+    padding: 1vw;
 }
-.materia {
-    padding: 15px;
-    font-size: 10px;
-    text-align: center;
-}
-a {
-    color:rgb(10, 158, 101);
-    text-decoration: none;
-}
-
-a:hover, a:active {
-    color: rgb(12, 17, 15);
-}
-
-img  {
-    width: 400px;
-}
-li {
-    list-style-type: none;
-}
-.menu-link {
+.menu-items li a {
     color: white;
-    font-weight: 700;
 }
-
+.menu-items li a:hover {
+    color:rgb(53, 61, 59);
+}
+ul {
+    list-style: none;
+}
+h1 {
+    font-family: "Bad Script", sans-serif;
+    font-size: 4vw;
+    color: rgb(66, 231, 182);
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h2, ul {
+    font-family: "Poppins", sans-serif;
+    color:rgb(53, 61, 59);
+}
 .lista-redes {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
-
-.lista-redes a {
-    padding: 15px;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(34, 211, 143);
+.lista-redes li a {
+    padding: 1vw;
+    color:rgb(66, 231, 182);
+}
+.lista-redes li a:hover {
+    color:rgb(53, 61, 59);
+}
+a {
+    text-decoration: none;
 }
