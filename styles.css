@@ -1,21 +1,31 @@
 .menu ul{
     display: flex;
     flex-direction: row;
+    justify-content: left;
     border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
-li {
-    padding: 30px;
+.menu ul li {
+    padding: 15px;
+}
+.menu {
+    background-color: rgb(34, 211, 143, 0.8);
+    width: 100%;
 }
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:#cc97da;
+    background-color:#ffffff;
     font-family: 'Noto Serif Gujarati', sans-serif;
+    border: none;
+    height: 600px;
+    width: 1350px;
+    min-width: 400px;
+    align-self: center;
 }
 section {
-    max-width: 950px;
+    height: 600px;
+    width: 1000px;
+    max-width: 1000px;
     min-width: 400px;
     border: none;
     height: auto;
@@ -23,7 +33,13 @@ section {
 }
 h1 {
     font-family: 'Bad Script', sans-serif;
-    font-size: 50;
+    color: rgb(34, 211, 143);
+    font-size:xx-large;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(60, 61, 60);
+    padding-top: 35px;
 }
 h4 {
     margin-bottom: -200px;
@@ -36,6 +52,17 @@ hgroup, .titulo-lista, h4 {
     text-align: center;
     padding: 0;
     margin: 1%;
+}
+.container-principal {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+    width: 1307px;
+    min-width: 400px;
+    max-width: 1307px;   
 }
 .titulo-lista {
     font-size: 25px;
@@ -67,9 +94,7 @@ h2 {font-weight: bold;
     padding: 0px 60px 0px 60px;
     text-align: center;
 }
-.texto:first-of-type{
-    margin-top: -5px;
-}
+
 .reportagens {
     display: flex;
     justify-content: center;
@@ -87,12 +112,33 @@ h2 {font-weight: bold;
     text-align: center;
 }
 a {
-    color:rgb(128, 6, 71);
+    color:rgb(10, 158, 101);
     text-decoration: none;
 }
+
+a:hover, a:active {
+    color: rgb(12, 17, 15);
+}
+
 img  {
     width: 400px;
 }
 li {
     list-style-type: none;
-  }
+}
+.menu-link {
+    color: white;
+    font-weight: 700;
+}
+
+.lista-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lista-redes a {
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(34, 211, 143);
+}
