@@ -17,10 +17,13 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(66, 231, 182);
+    background-color: rgb(34, 170, 129);
 }
 nav ul li {
-    padding-top: 1vw;
+    margin-top: 1vw;
+}
+.container-principal {
+    margin-bottom: 5vw;
 }
 .artigos, .certificacoes {
     padding-bottom: 5vw;
@@ -50,7 +53,7 @@ h1 {
     font-family: "Fuzzy Bubbles", sans-serif;
     font-weight: 400;
     font-size: 6vw;
-    color: rgb(66, 231, 182);
+    color: rgb(34, 170, 129);
     text-align: center;
     margin-top: 12vw;
     margin-bottom: 1.5vw;
@@ -91,7 +94,7 @@ h4 {
     margin-bottom: 1vw;
 }
 figure .link-para-reportagem a, .artigos a {
-    color:rgb(66, 231, 182);
+    color:rgb(34, 170, 129);
     font-family: "Poppins", sans-serif;
     font-size: 1.2vw;
 }
@@ -108,7 +111,7 @@ ul {
     list-style: none;
 }
 ul li a {
-    color:rgb(66, 231, 182);
+    color:rgb(34, 170, 129);
     font-family: "Poppins", sans-serif;
     font-size: 1.5vw;
     font-weight:500;
