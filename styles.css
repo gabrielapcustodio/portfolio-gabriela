@@ -20,9 +20,9 @@ nav {
     background-color: rgb(66, 231, 182);
 }
 nav ul li {
-    padding-top: 1.6vw;
+    padding-top: 1vw;
 }
-.artigos {
+.artigos, .certificacoes {
     padding-bottom: 5vw;
 }
 .menu-items {
