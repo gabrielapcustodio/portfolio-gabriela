@@ -22,6 +22,54 @@ nav {
 nav ul li {
     margin-top: 1vw;
 }
+h1 {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-size: 6vw;
+    color: rgb(34, 170, 129);
+    text-align: center;
+    margin-top: 12vw;
+    margin-bottom: 1.5vw;
+    padding-bottom: 0px;
+}
+h2 {
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+h2, h3, h4, .item, .sub-item, .instituicao {
+    font-family: "Poppins", sans-serif;
+    color:rgb(53, 61, 59);
+}
+h4 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    text-align: center;
+}
+figure .link-para-reportagem a:hover, .artigos a:hover {
+    color:rgb(53, 61, 59);
+}
+ul {
+    list-style: none;
+}
+ul li a {
+    color:rgb(34, 170, 129);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5vw;
+    font-weight:500;
+    padding: 1vw;
+    text-decoration: none;
+}
+img {
+    margin: none;
+    width: 40vw;
+    padding-bottom: 0.5vw;
+}
+figure .link-para-reportagem a, .artigos a {
+    color:rgb(34, 170, 129);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2vw;
+}
 .container-principal {
     margin-bottom: 5vw;
 }
@@ -49,30 +97,7 @@ nav ul li {
 .menu-items li .formacao {
     margin-left: 5vw;
 }
-h1 {
-    font-family: "Fuzzy Bubbles", sans-serif;
-    font-weight: 400;
-    font-size: 6vw;
-    color: rgb(34, 170, 129);
-    text-align: center;
-    margin-top: 12vw;
-    margin-bottom: 1.5vw;
-    padding-bottom: 0px;
-}
-h2 {
-    font-size: 2vw;
-    text-align: center;
-    margin-bottom: 5vw;
-}
-h2, h3, h4, .item, .sub-item, .instituicao {
-    font-family: "Poppins", sans-serif;
-    color:rgb(53, 61, 59);
-}
-h4 {
-    font-size: 1.5vw;
-    font-weight: 400;
-    text-align: center;
-}
+
 .titulo-lista {
     font-family: "Fuzzy Bubbles", sans-serif;
     font-size: 2vw;
@@ -93,31 +118,14 @@ h4 {
     font-style: italic;
     margin-bottom: 1vw;
 }
-figure .link-para-reportagem a, .artigos a {
-    color:rgb(34, 170, 129);
-    font-family: "Poppins", sans-serif;
-    font-size: 1.2vw;
-}
+
 .artigos p {
     font-family: "Poppins", sans-serif;
     font-size: 1.2vw;
     color:rgb(53, 61, 59);    
     text-align: center;
 }
-figure .link-para-reportagem a:hover, .artigos a:hover {
-    color:rgb(53, 61, 59);
-}
-ul {
-    list-style: none;
-}
-ul li a {
-    color:rgb(34, 170, 129);
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5vw;
-    font-weight:500;
-    padding: 1vw;
-    text-decoration: none;
-}
+
 .lista-redes {
     display: flex;
     flex-direction: row;
@@ -137,8 +145,9 @@ ul li a {
     padding: none;
     border: none;
 }
-img {
-    margin: none;
-    width: 40vw;
-    padding-bottom: 0.5vw;
+@media (min-width: 360px) and (max-width: 1024px) {
+    body{
+        min-width: 360px;
+        max-width: 1024;
+    }
 }
