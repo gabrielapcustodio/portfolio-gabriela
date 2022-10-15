@@ -146,6 +146,10 @@ figure .link-para-reportagem a, .artigos a {
     border: none;
 }
 @media (min-width: 360px) and (max-width: 1024px) {
+    nav {
+        min-width: 360px;
+        max-width: 1024;
+    }
     body{
         min-width: 360px;
         max-width: 1024;
